@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+<title>Dashboard</title>
 </head>
 <body>
     <div class="sayd">
@@ -11,8 +12,6 @@
     <a href="#">Blog</a>
     <a href="index.html">Signout</a>
     </div>
-    
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; AQUAFLANTS</span>
 
 <script>
 function openNav() {
@@ -25,8 +24,14 @@ function closeNav() {
 </script>
 
     <div class="serts">
-        <form>
-            <input type="text" id="search-input" list="search-suggestions" placeholder="Search...">
+
+    <div class="cont11">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; AQUAFLANTS</span>
+    </div>
+
+    <div class="cont12">
+        <form id="sers">
+            <input type="text" id="search-input" list="search-suggestions" placeholder="Search..." size="100">
             <datalist id="search-suggestions">
             <option value="Angiosperms">
             <option value="Ferns">
@@ -36,9 +41,11 @@ function closeNav() {
             </datalist>
             <button type="submit">Search</button>
         </form>
+
+      </div>
     </div>
   
 
 </div>   
 </body>
-</html> 
+</html>
