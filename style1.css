@@ -1,0 +1,29 @@
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.outlined-heading {
+	-webkit-text-stroke: 1px black;
+}
+
+.container {
+	background-color: #fff;
+	padding: 90px;
+    width: 40rem;
+	border-radius: 8px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+    margin-left: 27rem;
+    margin-top: 8rem;
+    font-size: 20px;
+
+}
