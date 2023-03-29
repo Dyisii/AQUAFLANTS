@@ -38,6 +38,19 @@ input[type=text], input[type=password], input[type=tel], input[type=email] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3e8e41;
+    color: white;
+}
+
 label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
