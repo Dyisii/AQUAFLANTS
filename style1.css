@@ -4,13 +4,14 @@ body {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 85px;
     color: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .outlined-heading {
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 3px black;
 }
 
 .container {
@@ -22,7 +23,6 @@ h1 {
 	display: flex;
 	justify-content: center;
     margin-left: 29rem;
-    margin-top: 3rem;
     font-size: 20px;
 
 }
@@ -35,17 +35,9 @@ input[type=text], input[type=password], input[type=tel], input[type=email] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-}
-button:hover {
-    background-color: #45a049;
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
